@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-
+// import { JimoBadge } from 'jimotest'
+import { JimoBadge } from './components/stencil-generated/index.ts';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <JimoBadge bgColor={'red'} color={'green'} num={3} isPoint={true}></JimoBadge>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edi1111t <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
